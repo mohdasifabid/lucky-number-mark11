@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finding Lucky Number</title>
+    <script src="app.js" defer type="text/javascript"></script>
+
+    <style>
+      #body {
+        text-align: center;
+        width: 300px;
+        color: black;
+        border: solid black 3px;
+        margin: auto;
+        background-color: olivedrab;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+        margin-top: 50px;
+      }
+      #h2 {
+        text-align: center;
+        display: inline;
+      }
+      #dob {
+        background-color: skyblue;
+        display: inline;
+        padding: 2 rem;
+        margin-bottom: 10px;
+      }
+      #luckyNumber {
+        background-color: skyblue;
+        margin-bottom: 10px;
+      }
+      #btnCheck {
+        background-color: skyblue ;
+        color: solid black;
+        padding 12px 26px;
+        text-align: center;
+        display: inline-block;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body id="body">
+    <h2>is your birthday lucky!</h2>
+    <div>
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" placeholder="Date of Birth" />
+    </div>
+    <div>
+      <label for="luckyNumber">Lucky Number</label>
+      <input
+        id="luckyNumber"
+        name="luckyNumber"
+        type="number"
+        placeholder="Enter Your Lucky Number"
+      />
+    </div>
+    <button id="btnCheck">Check</button>
+
+    <div id="output"></div>
+  </body>
+</html>
